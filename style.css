@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Mozilla+Headline:wght@200..700&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0px;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+/* header ::::::  */
+
+header {
+  background-color: #00838f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  color: white;
+}
+
+.links-container a {
+  text-decoration: none;
+  margin: 0px 15px;
+  font-weight: 900;
+  color: white;
+}
+
+.links-container a:hover {
+  color: black;
+}
+
+/* cover :::  */
+
+.cover {
+  background-image: url("./cover.jpg");
+  height: 400px;
+  background-position: center;
+  color: white;
+  padding: 200px;
+}
+
+.cover h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cover button {
+    background-color: #00838f;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 12px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.cover button:hover{
+    background-color: #024147;
+    transform: scale(1.1 , 1.1);
+}
+
+.social-media-container {
+
+    margin-left: 15px ;
+}
+
+.social-media-container a{
+  font-size: 30px;
+  color: white;
+}
+
+.social-media-container a:hover{
+    color: black;
+}
